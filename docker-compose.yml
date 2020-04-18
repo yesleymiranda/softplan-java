@@ -1,0 +1,8 @@
+version: '3.3'
+services:
+  app:
+    image: 'softplan-java-teste'
+    build: '.'
+    ports:
+      - 9191:8080
+      - 9292:80
